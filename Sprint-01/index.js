@@ -20,9 +20,7 @@ function longestLogin(loginList) {
    function longestLogin(loginList) {
     
     let result = loginList.reduce( function(word, longest){
-        return word.length > longest.length
-             ? word
-             : longest;
+        return word.length > longest.length ? word : longest;
    },'');
     console.log(result);
    }
