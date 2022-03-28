@@ -71,12 +71,12 @@
 
 //Task 5
 
-negate = function(x){ return -x; };
-halve = function(x){ return x / 2; };
-square = function(x){ return x * x; };
-double = function(x){ return 2 * x; };
-let fun = [negate, halve,square, double];
-const combineFunctions = (...fun) => x => fun.reduce((y, f) => f(y), x);
+// negate = function(x){ return -x; };
+// halve = function(x){ return x / 2; };
+// square = function(x){ return x * x; };
+// double = function(x){ return 2 * x; };
+// let fun = [negate, halve,square, double];
+// const combineFunctions = (...fun) => x => fun.reduce((y, f) => f(y), x);
 
 
 //Task 6
@@ -118,8 +118,7 @@ const combineFunctions = (...fun) => x => fun.reduce((y, f) => f(y), x);
 //   };
   
   
-  
-  
+
 //   console.log(getLanguages(students, student => student.name === 'Alice'));//'Italian', 'Russian']
 //   console.log(getLanguages(students, student => student.age < 26));//['English', 'Ukrainian',  'Italian', 'Russian']
 //     getLanguages(students);//['English', 'Ukrainian','Polish', 'Spanish', 'Italian', 'Russian']
